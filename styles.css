@@ -1,0 +1,54 @@
+/* Custom styles for Todo List */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.custom-select {
+    border-radius: 5px;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.list-group-item.complete {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.list-group-item:hover .delete-btn {
+    display: inline;
+}
+
+.delete-btn {
+    display: none;
+    cursor: pointer;
+    color: #dc3545;
+    margin-left: 5px;
+}
+
+.delete-btn:hover {
+    color: #a00;
+}
